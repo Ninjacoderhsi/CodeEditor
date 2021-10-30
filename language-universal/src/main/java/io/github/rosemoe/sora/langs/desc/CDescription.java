@@ -70,9 +70,10 @@ public class CDescription implements LanguageDescription {
                 "_Bool", "_Complex", "_Imaginary", "inline", "restrict",
                 "_Alignas", "_Alignof", "_Atomic", "_Generic", "_Noreurn",
                 "_Static_assert", "_Thread_local"
+                "asm","sizeof","ifelse","namespace","char16_t", "char32_t","timer.h","thread_local"
         };
     }
-
+/////end code soon new add keywords
     @Override
     public boolean useTab() {
         return false;
